@@ -19,16 +19,16 @@ const printHash = (hashName) => {
 
 function main() {
     const hashObj = {
-        Portland: 50,
-        Seattle: 80,
-        'New York': 20,
         Bogota: 20,
+        Seattle: 80,
         Cali: 40,
         Paris: 2,
+        Portland: 50,
+        'New York': 20, 
     };
 
-    for (const [filed, value] of Object.entries(hashObj)) {
-        updateHash('HolbertonSchools', field, value);
+    for (const [space, value] of Object.entries(hashObj)) {
+        updateHash('HolbertonSchools', space, value);
     }
     printHash('HolbertonSchools');
 }
